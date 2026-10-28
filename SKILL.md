@@ -3,7 +3,8 @@ name: included-health-content
 description: >-
   Drafts and reviews member-facing UX copy against Included Health Content Style
   Guidelines (voice, glossary, buttons, text fields, checkboxes, radios,
-  dropdowns, lists, calendars, status/preview/get-care cards, CTAs, microcopy).
+  dropdowns, lists, calendars, status/preview/get-care cards, page banners,
+  inline banners, toasts, CTAs, microcopy).
   Use when the user is writing or reviewing Included Health product or member-app
   copy, mentions Included Health / IH content style, or asks to apply this skill.
   Do not use for generic coding, non-IH products, or copy not tied to Included Health.
@@ -17,7 +18,7 @@ Apply these guidelines to **in-product / UX content** (titles, headers, body, CT
 
 Do not invent clinical claims, coverage, wait times, or prices. Get Care stickers may show plan-specific cost. Do not use real member PII in examples.
 
-Out of scope until added: Inclusive Language Guide, Forms guidelines, banner/toast specs. Empty states and generic errors use global UX rules in [ux-copy.md](ux-copy.md).
+Out of scope until added: Inclusive Language Guide, Forms guidelines. Empty states and generic errors use global UX rules in [ux-copy.md](ux-copy.md).
 
 ## Precedence
 
@@ -66,6 +67,7 @@ Read only the files that apply:
 | Status card / request status / wait time | [components/status-card.md](components/status-card.md) |
 | Preview / provider / clinic card | [components/preview-card.md](components/preview-card.md) |
 | Get care tile / service grid | [components/get-care-card.md](components/get-care-card.md) |
+| Page banner / inline banner / toast | [components/banners.md](components/banners.md) |
 
 ## Non-negotiables
 
@@ -81,7 +83,7 @@ Read only the files that apply:
 
 ## Additional resources
 
-- Voice, personality, strategy: [voice.md](voice.md)
+- Voice, personality, and tone: [voice.md](voice.md)
 - UX elements, page structure, accessible writing: [ux-copy.md](ux-copy.md)
 - Glossary: [terminology.md](terminology.md)
 - Before/after examples: [examples.md](examples.md)

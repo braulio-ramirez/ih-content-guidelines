@@ -1,37 +1,42 @@
-# Voice, principles, and strategy
-
-## Guiding principles
-
-**Conversational.** Write like a real person, not like a typical healthcare company. The voice should make people feel Included Health will take care of them in a new and better way.
-
-**Easy.** Communications should feel easy — “great healthcare without all the headaches.” Avoid dense, text-heavy blocks. Organize and deliver content so it is easy to digest.
-
-**Practical.** Content is useful, not decorative — “designed to treat you better.™” Clean, basic communications that guide members to what they need. Treat writing as an extension of care coordination: guide people to the right care and help them make informed decisions.
-
-**Inclusive.** Language is respectful, accurate, unbiased, and consistent with how individuals and communities prefer to be discussed. Content must be accessible: people with different mental and physical abilities can read and understand it.
-
-## Voice vs tone
-
-Voice is brand personality. It stays relatively stable. Tone is mood and can shift with audience, occasion, and the member’s emotional state. Consistency builds trust; an inconsistent voice can spark skepticism.
+# Voice and tone
 
 ## Brand personality
 
-Blend and balance these traits. Adjust intensity for audience and occasion.
+**Your doctor in the family.** Blend specialist expertise with family-member warmth: pick up, listen, guide to the right care — no runaround. Experts in your corner; care at your fingertips.
 
 | Trait | Meaning |
 | --- | --- |
-| **Tenacious** | We don’t shy away from hard problems. Steadfast determination until we reach the goal. |
-| **Kind** | We care, and it shows. Goodwill and compassion; a warm, empathetic ear. |
-| **Smart** | We know our stuff without being a know-it-all. Thoughtful partner for healthcare questions; we know how to find answers we don’t have ready. |
-| **Surprising** | We do things that seem like they can’t be done, in ways that are refreshingly better and easier. |
+| **Empathetic** | Lead with empathy, curiosity, and goodwill. Listen first, avoid judgment, stay thoughtful and human. |
+| **Optimistic** | Healthcare is complex and frustrating, not broken. Confidence that connecting the best of the system serves people better. |
+| **Knowledgeable** | Expertise from real clinical, operational, technical, and personal experience. We’ve seen what works. |
+| **Bold** | Challenge conventional wisdom. Fresh thinking that makes people stop and think. Unique, not generic healthcare brand. |
 
-## Content strategy
+## Inclusive
 
-**Statement.** We help members make informed decisions about their healthcare needs by creating content that empowers them to self-serve and guides them to the care they need in the easiest way possible.
+Everyone we speak to — members, clients, employees — should feel welcome, respected, seen, and safe. Choose words (and other brand elements) to foster trust, remove barriers, and signal company values. Inclusion is not buzzwords.
 
-**Goals.** With every piece of content, aim to:
+## Voice vs tone
 
-- Break down the barriers of the archaic healthcare system
-- Provide great healthcare without all the headaches
-- Address pain points people encounter with traditional healthcare
-- Make healthcare feel more simple, less complicated
+Voice is brand personality and stays relatively stable. Tone is mood; it shifts with audience, occasion, and the person’s emotional state (healthcare especially). Consistency builds trust; an inconsistent voice sparks skepticism.
+
+## Voice principles
+
+**Be conversational.** Sound like people, not a healthcare company. Avoid jargon and complex clinical terms. Contractions are OK when they fit. Every piece of content is part of a conversation.
+
+**Be humble.** Confident, never arrogant. Don’t boast, disparage competitors, or make it all about us. Members and clients are the heroes; highlight their needs, challenges, successes, and what we learned from them.
+
+**Be precise.** Choose words for the audience. Prefer active voice (`Maria booked a visit`, not `Maria was seen by the doctor`). Use examples to simplify. Back claims with facts, not superlatives like `best` or `excellent`.
+
+**Be concise.** Fewer words. Simple syntax. Bullets, headers, and visuals so busy, overwhelmed people can scan. Show that their time is valuable.
+
+**Be memorable.** Healthcare copy is a sea of sameness. Don’t parrot worn-out industry terms. Unexpected language and analogies that surprise and stick.
+
+## Do’s (voice-specific)
+
+- Fresh, original copy; clear messaging; snappy headlines.
+- Features and benefits that engage — not formal medical speak.
+- Speak directly to the member or client by name and with details that apply to them when you have that information.
+- Match the audience’s primary language and reading level (product UX still: 7th–8th grade per SKILL.md).
+- Spoken language: contractions, warm, grammatically correct.
+
+Global Don’ts (exclamation points, “Included” out of context, slang, gender assumptions, etc.) live in SKILL.md Non-negotiables.

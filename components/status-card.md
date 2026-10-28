@@ -1,6 +1,6 @@
 # Status card
 
-At-a-glance status of an Included Health service (often started in chat). Inline banner copy is not in this skill yet — keep alerts short and factual until those specs are added. Button labels follow the buttons spec.
+At-a-glance status of an Included Health service (often started in chat). Inline banner copy is in [banners.md](banners.md). Button labels follow the buttons spec.
 
 ## Title
 

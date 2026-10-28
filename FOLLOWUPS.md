@@ -10,7 +10,6 @@ Need PDFs or design-system pages.
 | --- | --- | --- |
 | Inclusive Language Guide | Accessible Writing points to it | PDF or markdown from content |
 | Forms guidelines | Text fields / validation point to them | PDF or markdown |
-| Inline banner, page banner, toast | Status Card points at inline banners; banners/toasts were requested but not in the v1 set | Component copy PDFs |
 | Other pattern pages | UX Copy PDF points to design-system component pages | Those pages, copy specs only |
 | Empty states and generic error screens | No component PDFs; v1 uses global UX rules | Component copy PDFs |
 

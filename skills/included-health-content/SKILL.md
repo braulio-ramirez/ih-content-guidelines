@@ -81,7 +81,7 @@ Read only the files that apply:
 - Do not appropriate words from other languages and cultures (`voila`, `pronto`, `pow wow`).
 - Do not assume familiarity or how the member feels. Do not exaggerate casual tone (“How ya doin?”).
 - No cliches, jokes, corporate buzzwords, or predictable marketing hooks (“New Year, New You.”).
-- Prefer `select` over `click` or `tap`; `scroll` over `swipe`; `turn on` / `turn off` over `toggle`.
+- Prefer `select` over `click` or `tap`; `tap` is allowed in push notification copy only; `scroll` over `swipe`; `turn on` / `turn off` over `toggle`.
 - Speak to the member in second person when the UX table allows it. Use consistent glossary terms.
 
 ## Additional resources

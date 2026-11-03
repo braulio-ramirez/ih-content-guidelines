@@ -10,7 +10,7 @@ Use these terms consistently. Component specs override this file when they lock 
 | Scroll | Moving content on screen | Use `scroll` instead of `swipe` (more device-agnostic). |
 | Select | Picking an element in the UI | Preferred instead of `click` or `tap`. Do not use `select` for a non-UI decision such as picking a doctor — use `choose`. |
 | Swipe | Touchscreen-only | Avoid. Use `scroll`. |
-| Tap | Touchscreen-only | Avoid. Use `select`. |
+| Tap | Touchscreen-only | Avoid. Use `select`. Exception: push notification copy, where `tap` is allowed (e.g. “Tap to pay.”). |
 | Toggle | Enable/disable a control | Don’t say `toggle`. Write `turn on` / `turn off` (e.g. “Turn location services on”). |
 | Type | Entering text | OK to use. For inclusivity, prefer `enter` when instructing users to input information. |
 

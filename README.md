@@ -1,42 +1,76 @@
 # Included Health content skill
 
-Cursor skill for drafting and reviewing **Included Health** member-facing UX copy (voice, glossary, component specs).
+Claude Code plugin and Cursor skills for drafting and reviewing **Included Health** member-facing UX copy (voice, glossary, component specs).
 
-Source vintage: v1, encoded from Content Style Guideline exports. Later updates patch the markdown in this repo. Designers who cloned the skill pick up changes with `git pull`.
+Source vintage: v1, encoded from Content Style Guideline exports. Later updates patch the markdown in this repo. Claude Code installs pick up changes automatically; Cursor installs use `git pull`.
 
 Deferred work: [FOLLOWUPS.md](FOLLOWUPS.md).
 
-## Install (design team)
+## What's in here
 
-Clone this repo once as a **personal skill**. Cursor can then use it in every project on your machine.
+| Skill | What it does |
+| --- | --- |
+| `included-health-content` | Drafts new copy and does quick checks. Holds all the guidelines. |
+| `review-content` | Reviews existing copy: issues table with the rule each one breaks, plus revised copy. Reads the same guideline files — no second copy to maintain. |
+
+**Edit guidelines in `skills/included-health-content/`.** Both skills pick up the change.
+
+## Install in Claude Code (auto-updates)
+
+This repo is a Claude Code plugin and its own marketplace. Run once in a terminal:
+
+```bash
+claude plugin marketplace add braulio-ramirez/ih-content-guidelines
+claude plugin install ih-content-guidelines@ih-content
+```
+
+Then turn on auto-update (one time): run `claude`, type `/plugin`, go to **Marketplaces**, select `ih-content`, and select **Enable auto-update**.
+
+After that, every push to `main` reaches you the next time you start a session. To update by hand:
+
+```bash
+claude plugin update ih-content-guidelines@ih-content
+```
+
+Use it by asking for IH copy help, or by name: `/ih-content-guidelines:review-content <paste copy>`.
+
+**Private repo?** Background updates use the git login already on your machine and never prompt. Run `gh auth login`, then `gh auth setup-git`, once.
+
+**For maintainers:** don't add a `version` field to `.claude-plugin/plugin.json` or `marketplace.json`. Without it, installs follow commits. With it, nobody gets changes until the version string changes. Check edits with `claude plugin validate .`.
+
+## Install in Cursor
+
+The skills now live under `skills/`. Clone the repo anywhere, then link each skill into Cursor's personal skills folder.
 
 **macOS / Linux**
 
 ```bash
-git clone <internal-repo-url> ~/.cursor/skills/included-health-content
+git clone <internal-repo-url> ~/ih-content-guidelines
+ln -s ~/ih-content-guidelines/skills/included-health-content ~/.cursor/skills/included-health-content
+ln -s ~/ih-content-guidelines/skills/review-content ~/.cursor/skills/review-content
 ```
 
-**Windows** (see also [FOLLOWUPS.md](FOLLOWUPS.md))
+**Already installed the old way?** The old layout cloned the repo straight into `~/.cursor/skills/included-health-content`. After this change that folder no longer has `SKILL.md` at its top level, so remove it and use the steps above:
 
 ```bash
-git clone <internal-repo-url> %USERPROFILE%\.cursor\skills\included-health-content
+rm -rf ~/.cursor/skills/included-health-content
 ```
 
-Do not put this folder in `~/.cursor/skills-cursor/` (Cursor’s built-in skills).
+Windows: see [FOLLOWUPS.md](FOLLOWUPS.md).
 
-### Update
+Do not put these folders in `~/.cursor/skills-cursor/` (Cursor's built-in skills).
+
+### Update (Cursor)
 
 ```bash
-cd ~/.cursor/skills/included-health-content && git pull
+cd ~/ih-content-guidelines && git pull
 ```
 
 ### Optional: product repos
 
-To ship the guidelines with a product codebase (everyone who clones that app gets them), copy this repo’s files into:
+To ship the guidelines with a product codebase, copy `skills/included-health-content/` and `skills/review-content/` into `your-app/.cursor/skills/` (keep them side by side — `review-content` reads the guideline files from its sibling folder).
 
-`your-app/.cursor/skills/included-health-content/`
-
-Content/UX owns this repo. Don’t fork copies to edit in ten places.
+Content/UX owns this repo. Don't fork copies to edit in ten places.
 
 ## Available vs auto-apply
 
@@ -52,7 +86,7 @@ v1 **omits** `disable-model-invocation` in `SKILL.md`, so auto-apply is on. The 
 
 If auto-load is too noisy:
 
-1. In `SKILL.md`, add this line to the YAML frontmatter (with the other fields):
+1. In `skills/included-health-content/SKILL.md`, add this line to the YAML frontmatter (with the other fields):
 
    `disable-model-invocation: true`
 

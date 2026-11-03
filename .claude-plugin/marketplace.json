@@ -1,0 +1,12 @@
+{
+  "name": "ih-content",
+  "description": "Included Health content design tools",
+  "owner": { "name": "Braulio Ramirez" },
+  "plugins": [
+    {
+      "name": "ih-content-guidelines",
+      "source": "./",
+      "description": "Draft and review Included Health member-facing UX copy against the content style guidelines."
+    }
+  ]
+}

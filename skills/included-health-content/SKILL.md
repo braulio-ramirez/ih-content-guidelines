@@ -7,12 +7,13 @@ description: >-
   inline banners, toasts, CTAs, microcopy).
   Use when the user is writing or reviewing Included Health product or member-app
   copy, mentions Included Health / IH content style, or asks to apply this skill.
+  For a structured review of existing copy, prefer the review-content skill.
   Do not use for generic coding, non-IH products, or copy not tied to Included Health.
 ---
 
 # Included Health content style
 
-Source vintage: v1 encoded from Content Style Guideline exports provided for this skill. Later PDF updates overwrite these markdown files. See [FOLLOWUPS.md](FOLLOWUPS.md).
+Source vintage: v1 encoded from Content Style Guideline exports provided for this skill. Later PDF updates overwrite these markdown files. See [FOLLOWUPS.md](../../FOLLOWUPS.md).
 
 Apply these guidelines to **in-product / UX content** (titles, headers, body, CTAs, lists, empty states, errors, forms, cards). If the surface might be marketing or email, ask before treating it as product UX — the source docs are UX-first.
 
@@ -43,6 +44,8 @@ Example: glossary prefers `book` on CTAs; Preview Card locks **Schedule appointm
 **Draft output:** copy keyed by UI element (for example Label, Help text, CTA) so it can be pasted into Figma. Note any guideline you could not apply because facts were missing.
 
 ## Review workflow
+
+For a full structured review (issues table with cited rules + revised copy), use the `review-content` skill. Quick inline checks can follow these steps:
 
 1. Identify component(s) and read those specs first.
 2. Check the global non-negotiables and glossary.

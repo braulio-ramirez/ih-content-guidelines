@@ -70,6 +70,7 @@ Read only the files that apply:
 | Status card / request status / wait time | [components/status-card.md](components/status-card.md) |
 | Preview / provider / clinic card | [components/preview-card.md](components/preview-card.md) |
 | Get care tile / service grid | [components/get-care-card.md](components/get-care-card.md) |
+| Action Center card / task card / event card / New tag | [components/action-center-card.md](components/action-center-card.md) |
 | Page banner / inline banner / toast | [components/banners.md](components/banners.md) |
 
 ## Non-negotiables

@@ -12,7 +12,7 @@ Use these terms consistently. Component specs override this file when they lock 
 | Swipe | Touchscreen-only | Avoid. Use `scroll`. |
 | Tap | Touchscreen-only | Avoid. Use `select`. Exception: push notification copy, where `tap` is allowed (e.g. “Tap to pay.”). |
 | Toggle | Enable/disable a control | Don’t say `toggle`. Write `turn on` / `turn off` (e.g. “Turn location services on”). |
-| Type | Entering text | OK to use. For inclusivity, prefer `enter` when instructing users to input information. |
+| Type | Entering text | In Messages, use `type` to instruct members chatting with Dot or the Care Team. Elsewhere, prefer `enter`. |
 
 ## Dual actions
 
@@ -28,12 +28,12 @@ Use these terms consistently. Component specs override this file when they lock 
 | Term | Guidelines |
 | --- | --- |
 | Agree | Consent to high-stakes notices (terms, legal). Do not use `OK` interchangeably here. |
-| Enter | Inputting new information (e.g. registration). Prefer over `type` for inclusivity. |
+| Enter | Inputting new information (e.g. registration). Preferred over `type` because it is more neutral (except in Messages; see Type). |
 | OK | Acknowledgement. Style as **OK** (all caps), not “okay.” Do not use for high-stakes consent. |
 | Send | Messages only. Not for forms (`submit`) or sharing with another party (`share`). |
 | Share | Sending information to another party (e.g. documents with the Care Team). Not for messaging or forms. |
 | Start | Don’t use as a standalone CTA. Use **Get started** on buttons. |
-| Submit | Forms only. Not for messages (`send`) or sharing with another party (`share`). |
+| Submit | Forms and button CTAs. Standalone `Submit` is OK on a button. Not for messages (`send`) or sharing with another party (`share`). |
 
 ## Dismissive actions
 
@@ -75,3 +75,4 @@ Describe what the member gets in plain words. Use an official name only when the
 | Button | Don’t refer to the element (“Select the Get started button”). Bold the label (“Select **Get started**”). If you can’t bold, use quotation marks. Tertiary buttons can look like links. |
 | Login / log in | `login` / `logout` = noun or adjective (the login process). `log in` / `log out` = verbs. Members log in to / log out of the IH app. Use `log in` (two words, no hyphen), not `sign in` (too close to `sign up`). Use `log out`, not `log off`. |
 | Signup / sign up | `signup` = noun/adjective for adding contact info to a bulletin (newsletter). `sign up` = verb for that act. Do not use `sign up` for creating an account — use **create account**. |
+| Interface element names | Avoid naming UI parts when describing them: page, section, tab, button, icon, link, menu, card, sidebar. Refer to interface elements by their label, in bold. Do: "Select **Get started**." Don't: "Select the Get started button." |

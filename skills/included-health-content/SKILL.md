@@ -64,6 +64,8 @@ Read only the files that apply:
 | Text field / input / placeholder / help / field error | [components/text-fields.md](components/text-fields.md) |
 | Form / form type / required field / validation | [components/forms.md](components/forms.md) |
 | Inclusive language, gender, pronouns, identity, community terms | [inclusive-language.md](inclusive-language.md) |
+| Grammar, numbers, dates and time, punctuation, contractions, points of view, tense | [grammar.md](grammar.md) |
+| Medical or care terms, costs and coverage, mental health, people and roles, visits | [glossary.md](glossary.md) |
 | Checkbox (multi-select) | [components/checkboxes.md](components/checkboxes.md) |
 | Radio (single-select) | [components/radio-buttons.md](components/radio-buttons.md) |
 | Dropdown / select / picker | [components/dropdowns.md](components/dropdowns.md) |

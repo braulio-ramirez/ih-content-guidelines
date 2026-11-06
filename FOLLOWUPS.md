@@ -21,6 +21,7 @@ Need PDFs or design-system pages.
 | Get Care catalog | PDF OCR was garbled in places; v1 used cleaner sticker/reference titles | Confirm against a clean source |
 | Status glossary | Status Card says never invent a status; v1 uses sticker-sheet values | Official status list if one exists |
 | Checkbox vs radio wording | Checkbox content table sometimes said “radio” | Content team confirm if anything still looks wrong |
+| Coaching term | Included Health Terms says “chat-based coaching.” Healthcare Terms says “mental health coach” on first use. | Content owner picks one for member copy |
 
 ## Skill behavior and distribution
 

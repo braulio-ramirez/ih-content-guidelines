@@ -44,7 +44,7 @@ The source also lists `Chat with our Digital Assistant to find care` / `Match wi
 | Call for care advice | Get quick answers from a provider over the phone |
 | Request a second medical opinion | Get a different perspective on a diagnosis or treatment plan |
 | Get LGBTQ+ health support | Support for all members of the LGBTQ+ community |
-| Get Black health support | Support for the Black and African-American community |
+| Get Black health support | Support for the Black community |
 
 ## Insurance and billing
 

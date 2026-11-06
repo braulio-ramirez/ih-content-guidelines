@@ -43,6 +43,19 @@ Empty states and generic full-page errors have no component spec yet. Use this f
 - Decorative images: empty alt (screen readers skip them).
 - Videos: captions and transcriptions.
 
+## Money
+
+Medical costs and coverage are a major topic in member copy. Source: Product Content Style Guide, Money section.
+
+- Omit cents on whole-dollar amounts: `$10`, not `$10.00`.
+- Always use a comma to separate thousands: `$2,000`, not `$2000`.
+- Write the exact amount. Never round: `$525.78`, not `$526`.
+
+## Punctuation in UI copy
+
+- Do not use an asterisk as a footnote marker. Use a tooltip for extra information. Asterisks mark required form fields only (see [forms.md](components/forms.md)).
+- Do not use ellipses in CTAs.
+
 ## Error messages
 
 Applies to error copy that has no component spec. Component specs (text fields, banners) add their own rules. Source: Product Content Style Guide (Google Doc), Error Messages section.
@@ -70,5 +83,5 @@ Applies to error copy that has no component spec. Component specs (text fields, 
 Accessible content also helps people on small screens, older people, temporary disabilities (broken arm, lost glasses), situational limits (bright sun, no audio), and slow or expensive connections.
 
 - Prioritize simplicity and perceivability. Familiar, consistent interactions. Everyone should be able to perceive content (sight, hearing, or touch).
-- People-first when writing about disability. Accomplishments and goals before a disability when relevant. Use the language a specific person or community uses for themselves (Inclusive Language Guide is not in this skill yet).
+- People-first when writing about disability. Accomplishments and goals before a disability when relevant. Use the language a specific person or community uses for themselves (see [inclusive-language.md](inclusive-language.md)).
 - Avoid language that uses a disability to express a negative quality.

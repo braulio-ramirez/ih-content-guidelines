@@ -8,7 +8,7 @@ Need PDFs or design-system pages.
 
 | Item | Why | What’s needed |
 | --- | --- | --- |
-| Inclusive Language Guide | Accessible Writing points to it | PDF or markdown from content |
+| Inclusive Language Guide (Google Drive) | Accessible Writing and `inclusive-language.md` point to it | Full text of the guide. `inclusive-language.md` covers the Confluence glossary only. |
 | Forms guidelines | Form rules now in `components/forms.md`, taken from the Product Content Style Guide Google Doc. Text fields point to them. | Confirm against the PDF or Content Wiki page when available |
 | Other pattern pages | UX Copy PDF points to design-system component pages | Those pages, copy specs only |
 | Empty states and generic error screens | No component PDFs; v1 uses global UX rules | Component copy PDFs |

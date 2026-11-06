@@ -54,6 +54,19 @@ Use these terms consistently. Component specs override this file when they lock 
 | Upload | Transfer digital assets from the user’s device to the system (e.g. insurance card photo). |
 | View | Access additional information. Don’t use `view` or `view more` as a standalone CTA — say what they will view (e.g. “View more providers”). Prefer `view` over `see`. |
 
+## Feature and service names
+
+Describe what the member gets in plain words. Use an official name only when the member needs it to find or identify the product, and spell it as the Products list does. Source: Product Content Style Guide (Slang and Jargon) and Included Health Terms.
+
+| Avoid in everyday copy | Say instead |
+| --- | --- |
+| Provider Match | Finding a doctor |
+| Expert Medical Opinion | Second opinion |
+| Claims Advocacy | Describe the help. Example: "Send us your doctor bill. We'll double check with your insurance and doctor's office if it's correct." |
+| Claims History | Care History (capitalize when it names the app section) |
+| Cost Transparency | Cost estimate |
+| Concierge Referral, Benefits Navigation Directory, Financial Toolkit, "navigation" | Describe what the member gets |
+
 ## Miscellaneous
 
 | Term | Guidelines |

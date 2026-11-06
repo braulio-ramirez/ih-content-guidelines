@@ -21,7 +21,7 @@ Voice is brand personality and stays relatively stable. Tone is mood; it shifts 
 
 ## Voice principles
 
-**Be conversational.** Sound like people, not a healthcare company. Avoid jargon and complex clinical terms. Contractions are OK when they fit. Every piece of content is part of a conversation.
+**Be conversational.** Sound like people, not a healthcare company. Avoid jargon and complex clinical terms. When a complex term is unavoidable, define it in plain language the first time you use it, inside the sentence or between em dashes. Contractions are OK when they fit. Every piece of content is part of a conversation.
 
 **Be humble.** Confident, never arrogant. Don’t boast, disparage competitors, or make it all about us. Members and clients are the heroes; highlight their needs, challenges, successes, and what we learned from them.
 

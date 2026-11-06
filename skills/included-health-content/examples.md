@@ -47,3 +47,17 @@
 | --- | --- |
 | Click here | View your visit details |
 | Read more | Read about this provider |
+
+## Money, names, and inclusive terms
+
+| Don’t | Do |
+| --- | --- |
+| $10.00 | $10 |
+| $2000 | $2,000 |
+| Provider Match | Finding a doctor |
+| Expert Medical Opinion | Second opinion |
+| View your Claims History | View your Care History |
+| Dr. Amanda Kost is a Tier 1* provider. | Dr. Amanda Kost is a Tier 1 provider. (tooltip explains Tier 1) |
+| Support for the Black and African-American community | Support for the Black community |
+| Sexual preference | Sexual orientation |
+| Mother or father | Parent |

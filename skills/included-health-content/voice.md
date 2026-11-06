@@ -25,7 +25,7 @@ Voice is brand personality and stays relatively stable. Tone is mood; it shifts 
 
 **Be humble.** Confident, never arrogant. Don’t boast, disparage competitors, or make it all about us. Members and clients are the heroes; highlight their needs, challenges, successes, and what we learned from them.
 
-**Be precise.** Choose words for the audience. Prefer active voice (`Maria booked a visit`, not `Maria was seen by the doctor`). Use examples to simplify. Back claims with facts, not superlatives like `best` or `excellent`.
+**Be precise.** Choose words for the audience. Prefer active voice (`Maria booked a visit`, not `Maria was seen by the doctor`). Use passive voice only in two cases: when active sounds antagonistic (`Your account was locked due to too many failed login attempts.`), or when active could place blame on the member (`Incorrect password entered.`, not `You entered an incorrect password.`). Passive voice is signaled by `was` or `has been` plus a past participle. Use examples to simplify. Back claims with facts, not superlatives like `best` or `excellent`.
 
 **Be concise.** Fewer words. Simple syntax. Bullets, headers, and visuals so busy, overwhelmed people can scan. Show that their time is valuable.
 

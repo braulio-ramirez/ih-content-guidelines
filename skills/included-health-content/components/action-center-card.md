@@ -11,11 +11,11 @@ Shared rules for every text element on both card types come first. Then the elem
 - Plain language at a 7th–8th grade reading level
 - Text never truncates, so character counts are targets for scannability, not hard caps
 - A tag’s meaning must be in its words, not only its color
-- Times: `A.M.` and `P.M.`, all caps with periods
+- Times: `AM` and `PM`, uppercase, no periods, one space before the meridian
 - Months: abbreviated, no period
 
-Do: `Mon, Nov 16, 8:30 A.M.` / `Due Nov 16`  
-Don’t: `8:30 AM` / `8:30 a.m.` / `Due Nov. 16.`
+Do: `Mon, Nov 16, 8:30 AM` / `Due Nov 16`  
+Don’t: `8:30 A.M.` / `8:30 a.m.` / `Due Nov. 16.`
 
 ## New tag
 
@@ -27,7 +27,7 @@ Signals that a card was just added to the Action Center.
 - Disappears when the member selects the card or 24 hours after it’s added, whichever comes first
 - Doesn’t count toward the 2-tag limit on task cards
 
-Do: `New` + `Mon, Nov 16, 8:30 A.M.` (event card) / `New` + `Due in 3 days` (task card)  
+Do: `New` + `Mon, Nov 16, 8:30 AM` (event card) / `New` + `Due in 3 days` (task card)  
 Don’t: `New!` / `Just added`
 
 ## Task card
@@ -106,14 +106,14 @@ Don’t: `Dr. Jane Smith, MD` (Dr. and MD say the same thing)
 When the visit is, or the expected wait for on-demand urgent care.
 
 - Scheduled visits: always the visit’s date and time
-- Today or tomorrow: `Today, H:MM A.M./P.M.` or `Tomorrow, H:MM A.M./P.M.`
-- Any other day: `Day, Mon D, H:MM A.M./P.M.`
+- Today or tomorrow: `Today, H:MM AM/PM` or `Tomorrow, H:MM AM/PM`
+- Any other day: `Day, Mon D, H:MM AM/PM`
 - Add the year only if it isn’t the current year
 - No countdowns or status words (`Starts in`, `Happening now`)
 - On-demand urgent care: `Estimated wait: [n] min`
 
-Do: `Today, 2:30 P.M.` / `Tomorrow, 8:30 A.M.` / `Mon, Nov 16, 8:30 A.M.` / `Estimated wait: 12 min` (on-demand urgent care)  
-Don’t: `Tomorrow 8:30 AM` (missing comma, wrong A.M. style) / `Starts in 5 min` / `Happening now`
+Do: `Today, 2:30 PM` / `Tomorrow, 8:30 AM` / `Mon, Nov 16, 8:30 AM` / `Estimated wait: 12 min` (on-demand urgent care)  
+Don’t: `Tomorrow 8:30 AM` (missing comma) / `Starts in 5 min` / `Happening now`
 
 ### Quick action
 

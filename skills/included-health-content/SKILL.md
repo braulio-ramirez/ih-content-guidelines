@@ -19,7 +19,7 @@ Apply these guidelines to **in-product / UX content** (titles, headers, body, CT
 
 Do not invent clinical claims, coverage, wait times, or prices. Get Care stickers may show plan-specific cost. Do not use real member PII in examples.
 
-Out of scope until added: Inclusive Language Guide, Forms guidelines. Empty states and generic errors use global UX rules in [ux-copy.md](ux-copy.md).
+Out of scope until added: Inclusive Language Guide. Empty states use global UX rules in [ux-copy.md](ux-copy.md). Generic error copy uses the error messages rules in [ux-copy.md](ux-copy.md).
 
 ## Precedence
 
@@ -62,6 +62,7 @@ Read only the files that apply:
 | --- | --- |
 | Buttons / CTAs / action labels | [components/buttons.md](components/buttons.md) |
 | Text field / input / placeholder / help / field error | [components/text-fields.md](components/text-fields.md) |
+| Form / form type / required field / validation | [components/forms.md](components/forms.md) |
 | Checkbox (multi-select) | [components/checkboxes.md](components/checkboxes.md) |
 | Radio (single-select) | [components/radio-buttons.md](components/radio-buttons.md) |
 | Dropdown / select / picker | [components/dropdowns.md](components/dropdowns.md) |

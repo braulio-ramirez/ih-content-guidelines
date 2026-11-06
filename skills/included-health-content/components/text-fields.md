@@ -2,7 +2,7 @@
 
 Members input or edit text. Other names: input, input field. Use a text area when more than one line is needed.
 
-Validation method details live in Forms guidelines (not in this skill yet).
+Form types, required fields, and validation timing live in [forms.md](forms.md).
 
 ## Labels
 
@@ -24,10 +24,11 @@ Validation method details live in Forms guidelines (not in this skill yet).
 
 ## Error messages
 
-- Shown when the member submits incorrect input or leaves a required field blank.
+- Shown when the input is incorrect or a required field is left blank. Validate live as the member fills in the field, and again on submit. See [forms.md](forms.md).
 - Error text **replaces** help text until the error is cleared; then restore the original help text.
 - Clear language. No ambiguity. No technical jargon (`404 error`, `Authentication failed`).
 - Focus on what the member **can do** to fix it, not what they can’t do.
+- Never blame the member. Tone rules for all error copy are in [ux-copy.md](../ux-copy.md) (Error messages).
 - Sentence case **with** end punctuation.
 
 ## Copy that follows from usage

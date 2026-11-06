@@ -13,7 +13,7 @@ Avoid disabled buttons unless necessary. Prefer letting the member hit an error 
 
 ## Word choice
 
-- Aim for 1–2 words, **3 words max** (content spec also allows **4 max**). Never truncate with ellipses.
+- Aim for 1–2 words, **4 words max**. Never truncate with ellipses.
 - If the action needs more words, explain before or after the button; keep the label short.
 - Avoid superfluous words like “now” unless needed for context (“See a doctor now” for Urgent Care — not “Get started now”).
 - Prefer short words: `book` instead of `schedule`, `visit` instead of `appointment`, unless a parent component locks a different CTA.

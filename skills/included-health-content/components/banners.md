@@ -14,6 +14,8 @@ The dismiss control is an **X**. Its accessible name is **Dismiss notification**
 
 Do not use these for promotional or feature-awareness messages. A full-page error (only when there is no page to go back to) is not a banner.
 
+Error banners follow the rules for their type. An error that applies to the whole screen or a section of the screen uses the page banner rules (screen-level error banner). An error that applies to one section uses the inline banner rules (inline error banner). Field-level errors are not banners; see [text-fields.md](text-fields.md) and [forms.md](forms.md). Error copy tone rules are in [ux-copy.md](../ux-copy.md).
+
 ## Page banner
 
 Dismiss only advisory messages. An ongoing condition the member cannot ignore stays on the page.

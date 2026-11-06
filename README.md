@@ -2,7 +2,7 @@
 
 Claude Code plugin and Cursor skills for drafting and reviewing **Included Health** member-facing UX copy (voice, glossary, component specs).
 
-Source vintage: v1, encoded from Content Style Guideline exports. Later updates patch the markdown in this repo. Claude Code installs pick up changes automatically; Cursor installs use `git pull`.
+Source vintage: v1, encoded from Content Style Guideline exports. Later updates patch the markdown in this repo. Claude Code and Cursor marketplace installs pick up changes automatically on push to `main`. Symlinked installs in Cursor use `git pull`.
 
 Deferred work: [FOLLOWUPS.md](FOLLOWUPS.md).
 
@@ -36,11 +36,18 @@ Use it by asking for IH copy help, or by name: `/ih-content-guidelines:review-co
 
 **Private repo?** Background updates use the git login already on your machine and never prompt. Run `gh auth login`, then `gh auth setup-git`, once.
 
-**For maintainers:** don't add a `version` field to `.claude-plugin/plugin.json` or `marketplace.json`. Without it, installs follow commits. With it, nobody gets changes until the version string changes. Check edits with `claude plugin validate .`.
+**For maintainers:** don't add a `version` field to `.claude-plugin/plugin.json`, `.cursor-plugin/plugin.json`, or either `marketplace.json`. Without it, installs follow commits. With it, nobody gets changes until the version string changes. Check edits with `claude plugin validate .`.
 
-## Install in Cursor
+## Install in Cursor (auto-updates)
 
-The skills now live under `skills/`. Clone the repo anywhere, then link each skill into Cursor's personal skills folder.
+This repo is also a Cursor plugin and marketplace (`.cursor-plugin/`). Run once in Cursor:
+
+1. Import this repo as a marketplace: **Settings → Plugins**, add the GitHub repo `braulio-ramirez/ih-content-guidelines`, and install `ih-content-guidelines`.
+2. Turn on **Enable Auto Refresh** for the marketplace. Plugins then update whenever `main` changes.
+
+Auto-refresh runs on GitHub push webhooks, so the **Cursor GitHub App** must be installed on the account that owns this repo. Updates can take a few minutes to arrive (re-indexing is throttled). Auto-refresh updates existing plugins but does not discover new ones: if a plugin is added to this repo later, re-import the marketplace.
+
+**Fallback: symlink install** (use this if the plugin install isn't available). The skills live under `skills/`. Clone the repo anywhere, then link each skill into Cursor's personal skills folder.
 
 **macOS / Linux**
 
@@ -60,11 +67,13 @@ Windows: see [FOLLOWUPS.md](FOLLOWUPS.md).
 
 Do not put these folders in `~/.cursor/skills-cursor/` (Cursor's built-in skills).
 
-### Update (Cursor)
+### Update (Cursor symlink install only)
 
 ```bash
 cd ~/ih-content-guidelines && git pull
 ```
+
+Plugin installs update themselves; skip this step.
 
 ### Optional: product repos
 

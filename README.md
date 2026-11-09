@@ -34,8 +34,6 @@ claude plugin update ih-content-guidelines@ih-content
 
 Use it by asking for IH copy help, or by name: `/ih-content-guidelines:review-content <paste copy>`.
 
-**Private repo?** Background updates use the git login already on your machine and never prompt. Run `gh auth login`, then `gh auth setup-git`, once.
-
 **For maintainers:** don't add a `version` field to `.claude-plugin/plugin.json`, `.cursor-plugin/plugin.json`, or either `marketplace.json`. Without it, installs follow commits. With it, nobody gets changes until the version string changes. Check edits with `claude plugin validate .`.
 
 ## Install in Cursor (auto-updates)
@@ -52,7 +50,7 @@ Auto-refresh runs on GitHub push webhooks, so the **Cursor GitHub App** must be 
 **macOS / Linux**
 
 ```bash
-git clone <internal-repo-url> ~/ih-content-guidelines
+git clone https://github.com/braulio-ramirez/ih-content-guidelines ~/ih-content-guidelines
 ln -s ~/ih-content-guidelines/skills/included-health-content ~/.cursor/skills/included-health-content
 ln -s ~/ih-content-guidelines/skills/review-content ~/.cursor/skills/review-content
 ```
